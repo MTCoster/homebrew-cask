@@ -7,7 +7,7 @@ cask 'mathtype' do
   name 'MathType'
   homepage 'http://www.wiris.com/en/mathtype'
 
-  pkg 'en'
+  pkg 'MathType-mac-en.pkg'
 
   uninstall pkgutil: "com.dessci.mathtype#{version.no_dots}Hf.MathType.pkg",
             delete:  "/Applications/MathType #{version.major}"
